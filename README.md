@@ -12,7 +12,9 @@
 
 ## On the Pi
 * Install dependencies for dotnet runtime on the Pi (Rasbian Strech presumed)
- `sudo apt install curl libunwind8 gettext apt-transport-https`
+ ```bash
+     sudo apt install curl libunwind8 gettext apt-transport-https
+ ```
 * `cd ~/publish`
 * `sudo chmod a+x blinkLED`
 * `sudo ./blinkLED` Your led should now blink.

@@ -11,6 +11,7 @@
  `scp -r bin/Debug/netcoreapp2.0/linux-arm/publish/ rpi@whatever:~/`
 
 ## On the Pi
+* Connect a LED with resistor to GND and [BCM 26](https://pinout.xyz/pinout/pin37_gpio26#)
 * Install dependencies for dotnet runtime on the Pi (Rasbian Strech presumed)
  ```bash
      sudo apt install curl libunwind8 gettext apt-transport-https
